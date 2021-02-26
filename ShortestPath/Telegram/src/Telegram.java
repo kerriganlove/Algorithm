@@ -1,10 +1,10 @@
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Telegram
 {
     static int[] distance;
     static ArrayList<ArrayList<Info>> edge;
+    static ArrayList<int []> path;
     public static class Info implements Comparable<Info>
     {
         int node;
